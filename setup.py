@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='Hungarian Algorithm',
-    url='https://github.com/jbrightuniverse/Hungarian-Algorithm',
+    url='https://github.com/jbrightuniverse/hungarianalg',
     author='James Yuming Yu',
     packages=['hungarianalg'],
     install_requires=['numpy'],
