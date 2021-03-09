@@ -1,5 +1,3 @@
-# Hungarian-Algorithm
-
 A Python 3 implementation of the Hungarian Algorithm for optimal matching in bipartite weighted graphs.
 
 Based on the graph theory implementation in [these notes](http://www.cse.ust.hk/~golin/COMP572/Notes/Matching.pdf) combined with the matrix interpretation in [these notes](https://montoya.econ.ubc.ca/Econ514/hungarian.pdf).
