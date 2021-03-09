@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='Hungarian Algorithm',
+    name='hungarianalg',
     url='https://github.com/jbrightuniverse/hungarianalg',
     author='James Yuming Yu',
     packages=['hungarianalg'],
