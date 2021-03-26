@@ -20,3 +20,9 @@ Properties:
 - Total Revenue: `result.revenue_sum`
 
 See `example.py` for a comprehensive example.
+
+# Issues
+
+IMPORTANT: Currently, support for decimals in the input matrix is unstable, as at large matrix dimensions, floating point errors propagate and cause the algorithm to fail to terminate. 
+
+It is recommended instead to linearly scale the input matrix by a power of 10 to a set of whole numbers, run the algorithm, and then scale back to the original precision at the end.
